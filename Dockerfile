@@ -2,4 +2,4 @@ FROM mageai/mageai:latest
 
 EXPOSE 6789
 
-ENTRYPOINT [ "/app/run_app.sh", "mage", "start", "my-bot-mage-ai" ]
+ENTRYPOINT [ "/app/run_app.sh", "mage", "start", "my-mage-ai" ]
